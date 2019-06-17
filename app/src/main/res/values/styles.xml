@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/divider</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <!--Dialog backround-->
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="showTitle">true</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:fontFamily">@font/nunito_regular</item>
+        <item name="colorAccent">@color/colorTextViewSecondary</item>
+        <item name="android:textColorPrimary">@color/colorTextViewSecondary</item>
+    </style>
+
+    <!-- Bottom Sheet Style-->
+    <style name="AppModalStyle"
+           parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/rectangle_rounded</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+           parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+
+    <!-- Button Alpro-->
+    <style name="ButtonThemeAccent" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorAccentSecondary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <!-- COMPONENT -->
+
+    <style name="TextView" parent="android:TextAppearance">
+        <item name="android:textColor">@color/colorTextViewSecondary</item>
+        <item name="android:gravity">left</item>
+        <item name="android:fontFamily">@font/nunito_regular</item>
+    </style>
+
+    <!--___________ TEXT SIZE ___________-->
+    <style name="TextView.ExtraSmall" parent="TextView">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextView.Small" parent="TextView">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextView.Medium" parent="TextView">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextView.Big" parent="TextView">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextView.ExtraBig" parent="TextView">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="TextView.MultiExtraBig" parent="TextView">
+        <item name="android:textSize">46sp</item>
+    </style>
+
+    <!--___________ TEXT BOLD ___________-->
+
+    <style name="TextView.SmallBold" parent="TextView.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.MediumBold" parent="TextView.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.BigBold" parent="TextView.Big">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.ExtraBigBold" parent="TextView.ExtraBig">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView.MultiExtraBigBold" parent="TextView.MultiExtraBig">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
